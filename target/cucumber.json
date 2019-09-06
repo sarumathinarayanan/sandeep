@@ -1,0 +1,651 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:20:29.219Z",
+        "line": 14,
+        "name": "checking",
+        "description": "",
+        "id": "check;checking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17661318700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use in login page",
+            "match": {
+              "location": "checkclass.use_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151293300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "use search \"hand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hand\"",
+                  "offset": 11
+                }
+              ],
+              "location": "checkclass.use_search(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1704383400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click searchh button",
+            "match": {
+              "location": "checkclass.click_searchh_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5157366300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click addtocart button",
+            "match": {
+              "location": "checkclass.click_addtocart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9152200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login page should display",
+            "match": {
+              "location": "checkclass.login_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "check",
+    "description": "",
+    "id": "check",
+    "keyword": "Feature",
+    "uri": "classpath:Demo/case1/Assert.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:20:53.918Z",
+        "line": 4,
+        "name": "Register the TestMeApp",
+        "description": "",
+        "id": "register;register-the-testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13321719700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the application",
+            "match": {
+              "location": "casestudy.user_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4586998600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click sign_up button to register",
+            "match": {
+              "location": "casestudy.user_click_sign_up_button_to_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249880700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the username as \"saru12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saru12345\"",
+                  "offset": 28
+                }
+              ],
+              "location": "casestudy.user_enters_the_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123515900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters first name as \"sarumathi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sarumathi\"",
+                  "offset": 26
+                }
+              ],
+              "location": "casestudy.user_enters_first_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88830000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters last name as \"naren\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naren\"",
+                  "offset": 25
+                }
+              ],
+              "location": "casestudy.user_enters_last_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91273800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password as \"sar3445\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sar3445\"",
+                  "offset": 24
+                }
+              ],
+              "location": "casestudy.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76272200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters confirm password as \"sar3445\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sar3445\"",
+                  "offset": 32
+                }
+              ],
+              "location": "casestudy.user_enters_confirm_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5094897000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters gender as female",
+            "match": {
+              "location": "casestudy.user_enters_gender_as_female()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136619400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters email as \"saru@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"saru@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "casestudy.user_enters_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85505700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters mobile number as \"9876645467\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876645467\"",
+                  "offset": 29
+                }
+              ],
+              "location": "casestudy.user_enters_mobile_number_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99845900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters dob as \"05/01/1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"05/01/1998\"",
+                  "offset": 19
+                }
+              ],
+              "location": "casestudy.user_enters_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79686300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters address as \"pudukkotai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pudukkotai\"",
+                  "offset": 23
+                }
+              ],
+              "location": "casestudy.user_enters_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128828900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters security question",
+            "match": {
+              "location": "casestudy.user_enters_security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83987100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters answer as \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chennai\"",
+                  "offset": 22
+                }
+              ],
+              "location": "casestudy.user_enters_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4071709500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click register button",
+            "match": {
+              "location": "casestudy.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [login] but found [Sign Up]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:137)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:453)\r\n\tat org.testng.Assert.assertEquals(Assert.java:463)\r\n\tat Demo.case1.casestudy.login_Page_will_display(casestudy.java:124)\r\n\tat ✽.Login Page will display(classpath:Demo/case1/case1.feature:20)\r\n",
+              "duration": 13070400,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Login Page will display",
+            "match": {
+              "location": "casestudy.login_Page_will_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "classpath:Demo/case1/case1.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:21:22.258Z",
+        "line": 13,
+        "name": "login_test",
+        "description": "",
+        "id": "login;login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17453742900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in login pag",
+            "match": {
+              "location": "case_2.user_in_login_pag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6607212400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks signin button",
+            "match": {
+              "location": "case_2.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105235800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters una \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 16
+                }
+              ],
+              "location": "case_2.user_enters_una(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120817400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters passwor \"password13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password13\"",
+                  "offset": 20
+                }
+              ],
+              "location": "case_2.user_enters_passwor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232418600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click login",
+            "match": {
+              "location": "case_2.click_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Demo/case1/case2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:21:46.780Z",
+        "line": 15,
+        "name": "adding to cart",
+        "description": "",
+        "id": "add-to-cart;adding-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13278726000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in login page",
+            "match": {
+              "location": "case_4.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5515256900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks signin",
+            "match": {
+              "location": "case_4.user_clicks_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89401800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter un \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 14
+                }
+              ],
+              "location": "case_4.user_enter_un(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108078100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter pass \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "case_4.user_enter_pass(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1423184100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks login page",
+            "match": {
+              "location": "case_4.user_clicks_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81121800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search \"hand\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hand\"",
+                  "offset": 12
+                }
+              ],
+              "location": "case_4.user_search(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 913779400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click search button",
+            "match": {
+              "location": "case_4.click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "add to cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "classpath:Demo/case1/casesss.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:22:08.217Z",
+        "line": 10,
+        "name": "Login",
+        "description": "",
+        "id": "login;login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "the logi display",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user enters th usrname \"Lalitha\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters th pswrd \"password123\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "click logi",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Demo/case1/login.feature",
+    "tags": []
+  }
+]
